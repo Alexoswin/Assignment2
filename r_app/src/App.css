@@ -1,0 +1,528 @@
+/* for navigation bar
+*/
+.nav:hover{  
+  color: orange
+}
+#icon:hover{
+  color:orange;
+}
+#loginbtn{
+  position: relative;
+  left: 47vw;
+  background-color: rgb(43, 98, 219);
+  bottom: 48vh;
+  width:auto;
+  color: white;
+  font-size: 1rem;
+}
+#loginbtn:hover{
+  background-color: rgb(16, 16, 246);
+}
+
+.nav{
+  
+  font-size: 2vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255) ;
+  background-color: rgb(0, 05, ); 
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1.2vh;
+  
+
+}
+#nav{
+  background-color: rgb(0, 5, 73);
+  height: 5vh;
+  width: 100vw;
+  display:flex;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 1;
+ 
+}
+body{
+  text-align: center;
+  text-decoration-line: none;
+  background-color: rgb(229, 230, 231);
+
+}
+
+
+.menu-button {
+  margin-top: 2.5vh;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 4vh;
+  height: 0.4vh;
+  background-color: rgb(255, 145, 0);
+  margin: 12%;
+  
+}
+
+#under_image_text{
+  
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  height: 5vh;
+  padding-bottom: 1vh;
+  display: flex;
+  justify-content: center;
+  bottom: 1vh;
+  
+}
+
+/* for icon */
+#icon{
+  margin-left: 3vh;
+  height: 5vh;
+  width: 5vh;
+  color: white;  
+}
+#text{
+  color: white;
+}
+
+.card {
+  
+  width: 30rem;
+  height: 35rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-left: 1vw;
+
+
+  position: relative;
+ overflow: hidden;
+ color: rgb(0, 0, 0);
+ box-shadow: 0.5rem 0.5rem 1rem 0 rgba(0, 0, 0, 0.651);
+  top: 1vh;
+}
+
+
+
+
+.card-text{
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  width: 26rem;
+}
+#cardimage1{
+
+  background-size:cover ; 
+  
+  border-collapse: collapse;
+  margin: -0.1vh; 
+  height: 22rem;
+}
+
+
+#filler{
+  font-size: 2rem;
+  font-weight: bold;
+  color: blue;
+}
+
+.ft{
+  color: blue;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+#fortext{
+  margin-top: 4vh;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.carousel{
+  position: relative;
+  width: 75vw;
+  
+  height: 49vh;
+}
+.d-block{
+  height: 54vh;
+  
+}
+img{
+  background-size: cover;
+ 
+}
+
+
+.active{
+  color: orange
+}
+#cbox{
+  height:32vw;
+  width:50vw;
+  background-color: white;
+  border-width: 0.1vh;
+  border-style: solid;
+  border-color: black;
+  position: relative;
+  top:7vh;
+  left: 2vh;
+  background-size:cover;
+}
+#detailicon{
+  position: relative;
+  left :47vw;
+  bottom: 60vh;
+  height:4vh;
+  width: 3.8vw;
+  border-style: solid;
+  border-width: 0.1vh;
+  border-radius: 10vh;
+  color: black;
+}
+#detailicon:hover{
+  color:blue;
+}
+#forc{
+  display: inline-block;
+  margin-right: 5vw;
+  margin-top: 10vh;
+}
+#c_block{
+  background-color: rgb(206, 247, 255);
+  height: 55vh;
+  
+}
+.details{
+  
+  font-size: 1.5rem;
+  padding-right: 35vh;
+  padding-top: 5vh;
+}
+#abox{
+  position: relative;
+  top:20vh;
+  background-color: white;
+  display: inline-block;
+  height: 70vh;
+  width: 50vh;
+  border-radius: 30px;
+
+}
+.userimg{
+  background-image: url(https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg);
+  background-size: cover;
+  height: 27vh;
+  width: 27vh;
+  margin-top: 2vh;
+  margin-left: 11.5svh;
+  border-radius: 50%;
+
+  
+}
+#map {
+  height: 45vh;
+  width: 65vw;
+  position: relative;
+  border-radius: 3vh;
+  display: inline-block;
+  
+  
+  
+}
+
+.route{
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  height: 1.8rem;
+  width: 20rem;
+  position: relative;
+}
+#services{
+  font-size: 2rem;
+  display: inline-block;
+}
+
+
+#distance{
+  position: relative;
+ 
+}
+body{
+  background-color: rgb(216, 248, 255);
+}
+#inputs{
+  top:65vh;
+  position:absolute;
+  display: inline-block;
+  font-size: 1rem;
+   margin-left: 5vw;
+  right: 15vw;
+  border-radius: 4vh;
+  background-color: white;
+  
+  margin-top:15vh;
+  border-width: 1vh;
+  border-style:inset;
+  border-color: aqua;
+  
+  
+  
+}
+.address{
+ 
+ 
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  margin-left: 10vw;
+  
+  
+}
+.form-control{
+  
+  width: 30vw;
+
+  font-size: 2vh;
+  height: 10vh;
+
+  
+}
+.size{
+  width:20vh
+}
+.input-group{
+  width:45vw;
+}
+.route{
+  height: 5vh;
+  font-size: 1rem;
+}
+.map_card_image{
+
+  height: 30vw;
+  width: 45vw;
+  
+  position: absolute;
+  top:10vh;
+  left: 2vw;
+  
+  border-radius: 4vh;
+  background-size: cover;
+  display: inline-block;
+  
+}
+
+.map_card_style{
+  height: 30vw;
+  width: 45vw;
+  border-radius: 4vh;
+}
+
+.div-text{
+  display: inline-block;
+  width: 70vh;
+  position: relative;
+  left: 50vw;
+  bottom: 25.3vw;
+  font-size: 1.3vw;
+  
+
+}
+#col{
+  background-color: rgb(231, 244, 255);
+  height: 200vh;
+
+}
+
+.cost_per_km{
+ 
+
+  background-color: rgb(6, 178, 32);
+  
+}
+#calculate{
+  height: 5vh;
+  width: 20vh;
+  background-color: aquamarine;
+}
+#totalDistance{
+  font-size: 1.2rem;
+  color:rgb(0, 68, 255);
+  font-weight: 500;
+}
+#totalCost{
+  font-size: 1.2rem;
+  color: rgb(0, 68, 255);
+  font-weight: 500;
+}
+#carouselExampleIndicators{
+  width: 99.1vw;
+  z-index: 0;
+ 
+  
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 100%; /* Allow the container to expand to full width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    overflow: hidden; /* Ensure the container doesn't overflow */
+}
+
+.container:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #efe9e9;
+}
+
+.developers {
+    display: flex;
+    justify-content: space-between; /* Distribute space between boxes */
+    flex-wrap: wrap;
+}
+
+.developer {
+    flex: 0 0 calc(30% - 20px); /* Distribute in 3 columns with some spacing */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Apply the transition to all properties */
+    display: flex;
+    flex-direction: column; /* Display content in a column */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text horizontally */
+    border-radius: 10px; /* Add rounded corners */
+    margin-right: 20px;
+}
+
+.developer:last-child {
+    margin-right: 0; /* Remove margin from the last box */
+}
+
+/* Hover effect */
+.developer:hover {
+    background-color: #f5f5f5; /* Change background color on hover */
+    transform: translateY(-5px); /* Lift the box slightly on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+}
+
+.developer img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%; /* Make the image round */
+    margin-bottom: 1vh; /* Add space below the image */
+}
+
+.developer h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.developer-details {
+    display: none;
+    padding-top: 10px;
+}
+
+/* Add styles for the "Show Details" button */
+.show-details-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.show-details-btn:hover {
+    background-color: #555;
+}
+
+/* Responsive CSS for mobile devices */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .developers {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .developer {
+        flex-basis: calc(50% - 20px); /* Display 2 boxes per row on smaller screens */
+        margin-right: 0; /* Remove margin from the last box */
+        margin-bottom: 20px; /* Add space below boxes */
+    }
+}
+
+.dev{
+  position:absolute;
+  top: 30vh;
+  height: 50vh;
+  
+}
+.Id{
+
+ margin-left: 8vh;
+ font-size: 3vh;
+ display: inline-block;
+
+ margin-top: 2vh;
+ border-radius:1vh;
+ padding-left: 1vh;
+
+  box-shadow: 0.5rem 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+
+}
+#abox{
+  box-shadow: 0.5rem 0.5rem 1rem 0 rgba(0, 0, 0, 0.445);
+ 
+}
+.userimg{
+  box-shadow: 0.5rem 0.5rem 1rem 0 rgba(0, 0, 0, 0.39);
+  border-width: 1vh;
+  border-style:solid;
+  border-color: rgb(75, 255, 65);
+}
+#lbtn{
+  font-size: 1.8vh;
+  margin-top: 2vh;
+  margin-left: 8vh;
+}
+.map_card_image{
+  box-shadow: 0.5rem 0.5rem 1rem 0 rgba(0, 0, 0, 0.534);
+  
+
+}
+#cardimage1{
+  transition: transform 1.5s
+}
+#cardimage1:hover{
+  transform: scale(1.1)
+}
